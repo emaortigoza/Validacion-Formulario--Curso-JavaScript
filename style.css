@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+body{
+    font-family: "Oxanium", sans-serif;
+    background-color: rgb(240, 240, 238);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#registroForm{
+    background-color: #e22929;
+    color: white;
+    padding: 25px;
+    border-radius: 4px;
+    margin: 10px;
+    box-shadow: 1px 1px 10px #968282;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+label.inline{
+    display: inline-block;
+}
+
+input, select{
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-family: "Oxanium", sans-serif;
+}
+
+input[type="checkbox"]{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select{
+    width: 100%;
+}
+
+input[type="submit"]{
+    background-color: rgba(39, 43, 39, 0.521);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 100%;
+    transition: .5s ease;
+}
+
+input[type="submit"]:hover{
+    background-color: #d81212;
+    border: 1px solid white;
+}
+
+.error{
+    color: rgb(200, 255, 0);
+    font-size: 10px;
+}
